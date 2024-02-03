@@ -59,6 +59,7 @@
 @media (max-width:768px) {
     .hero-section{
         flex-direction: column;
+        gap: 10px;
     }
     .hero-section-1{
         width: 100%;
