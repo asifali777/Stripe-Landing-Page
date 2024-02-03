@@ -143,7 +143,9 @@
     scroll-snap-align: start;
    }
    .explore-the-docs ,.contact-sales{
-    padding: 5px 8px;
-    font-size: 10px;
+    width: 150px;
+    height: 40px;
+    font-size: 12px;
+    border-radius: 30px;
 }
 } 
