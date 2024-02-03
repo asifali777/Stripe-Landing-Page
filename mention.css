@@ -1,0 +1,18 @@
+.mention{
+    display: flex;
+    margin-top: 6%;
+    gap: 30px;
+    
+}
+.margin-top{
+    margin-top: 20px;
+}
+#rocket{
+    color: #0073E6;
+}
+#custom{
+    color: #1ADEE1;
+}
+#earth{
+    color: #05DA5D;
+}

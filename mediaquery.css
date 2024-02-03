@@ -1,0 +1,146 @@
+@media (max-width:1075px) {
+    .nav-right-1{
+        margin-right: 0;
+    }
+    .nav-right-1 ul{
+        gap: 0px;
+    }
+    .nav-right-2 ul{
+        gap: 0px;
+    }
+    .nav-2right ul{
+        gap: 0px;
+    }
+    .explore-the-docs ,.contact-sales{
+        padding: 8px;
+        font-size: 12px;
+    }
+    .hero-section-1 h1{
+        font-size: 2rem;
+    }
+    .mention p{
+        font-size: 14px;
+    }
+    .hero-section-1 p{
+        font-size: 14px;
+    }
+}
+@media (max-width:996px){
+.hero-section-1 h1{
+    font-size: 1.5rem;
+}
+.hero-section-1 h1{
+    font-size: 2rem;
+}
+.mention p{
+    font-size: 12px;
+}
+.hero-section-1 p{
+    font-size: 12px;
+}
+#main{
+    padding: 2rem 5rem 5rem 5rem;
+}
+.nav-right-1 ul a,.nav-right-2 ul a{
+    font-size: 14px;
+}
+.nav-2right a{
+    font-size: 12px;
+}
+}
+@media (max-width:850px) {
+    #main{
+        padding: 2rem 2rem 5rem 2rem;
+    }
+    .hero-section-1 h1{
+        font-size: 1.4rem;
+    }
+}
+@media (max-width:768px) {
+    .hero-section{
+        flex-direction: column;
+    }
+    .hero-section-1{
+        width: 100%;
+        padding: 0 1.8rem;
+    }
+    .hero-section-2{
+        width: 100%;
+    }
+    .mention{
+        flex-direction: column;
+        padding: 0 1.8rem;
+    }
+    .mention p{
+        color: #20204bce;
+    }
+  
+    .hero-section-1 h1{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    #main{
+        padding: 0 1rem 5rem 1rem;
+    }
+    #menu{
+        display: block;
+    }
+    #close{
+        display: block;
+    }
+    .nav-right{
+        /* display: none; */
+        position: absolute;
+        top: 0; 
+        left: 0;
+        width: 0;
+        height: 0;
+        /* opacity: 0;  */
+        overflow: hidden; 
+    }
+    .nav-right.active{
+        /* opacity: 1; */
+        width: 100vw;   
+        height: 100vh;
+        z-index: 1;
+        transition: .5s;  
+        background-color: rgb(255, 255, 255);
+        flex-direction: column;
+        justify-content: start;
+        padding: 10px;
+        box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
+        font-size: 3rem;  
+    }
+    #close{
+        position: absolute;
+        z-index: 10; 
+        top: 10px;
+        right: 10px;
+    }
+    .nav-right-1 ul{    
+    flex-direction: column;
+   
+   }
+   .nav-right-2 ul{ 
+    flex-direction: column;  
+
+   }
+   .nav-right-1 ul a, .nav-right-2 ul a{
+    font-size: 1.4rem;
+   }
+   .nav-2right{
+    width: 150px;
+    height: 25px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+    scroll-snap-type: x mandatory;
+   }
+   .nav-2right ul li{
+    scroll-snap-align: start;
+   }
+   .explore-the-docs ,.contact-sales{
+    padding: 5px 8px;
+    font-size: 10px;
+}
+} 
