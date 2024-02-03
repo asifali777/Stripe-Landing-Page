@@ -64,6 +64,9 @@
         width: 100%;
         padding: 0 1.8rem;
     }
+    .hero-section-1 p{
+        font-size: 12px;
+    }
     .hero-section-2{
         width: 100%;
     }
@@ -73,6 +76,7 @@
     }
     .mention p{
         color: #20204bce;
+        font-size: 12px;
     }
   
     .hero-section-1 h1{
